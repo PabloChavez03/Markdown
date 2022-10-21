@@ -5,7 +5,7 @@ interface Props {
 
 const Input: React.FC<Props> = ({ input, handleChangeText }) => {
   return (
-    <div className="flex flex-col w-2/4 p-8 box-border">
+    <div className="flex flex-col w-screen md:w-2/4 p-8 box-border">
       <label htmlFor="input" className="text-gray-300 text-4xl mb-4">
         Input
       </label>

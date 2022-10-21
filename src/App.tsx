@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <div className="container flex justify-center">
+    <div className="flex flex-col md:flex-row md:justify-center md:container">
       <Input input={input} handleChangeText={handleChangeText} />
       <Markdown input={input} />
     </div>

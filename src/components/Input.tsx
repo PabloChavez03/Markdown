@@ -15,7 +15,7 @@ const Input: React.FC<Props> = ({ input, handleChangeText }) => {
           name="input"
           value={input}
           onChange={handleChangeText}
-          placeholder="Try to write something  :)"
+          placeholder="Try to write something, come on you can do it  :)"
           className="bg-[#222222] text-gray-300 resize-none min-h-[400px] w-full border-solid border-2 outline-none p-2 transition-colors focus:border-green-100"
         />
       </div>

@@ -7,7 +7,7 @@ interface AppState {
 }
 
 function App() {
-  const [input, setInput] = useState<AppState["input"]>("");
+  const [input, setInput] = useState<AppState["input"]>("# Welcome to Marksite :)\n## Try to write something.\n### Come on, don't think so much. Try it.");
 
   const handleChangeText = (evt: React.FormEvent<HTMLTextAreaElement>) => {
     setInput(evt.currentTarget.value);
